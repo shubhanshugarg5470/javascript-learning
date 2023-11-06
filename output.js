@@ -8,4 +8,5 @@ window.alert("you are king")
 
 alert(78);
 4
-console.log(5+6);
+console.log(5+6); 
+// it mostly use for printing for checking exicution of code 
