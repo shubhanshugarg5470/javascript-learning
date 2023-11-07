@@ -33,7 +33,7 @@ var mathMark=90
 
 
 /*and then we assign a value (wich is a datatype) 
-we classify  datatype in two type 
+we classify  datatype in two type (we classify datatype based on how data stored in memory and how we access this data)
  1.primitive data type       2.refference datatype
  
 primitive datatype---
@@ -58,6 +58,7 @@ let vijayMark;
 
 // console.log(typeof check);
 // console.log(typeof mark);
+// console.log(classMark);
 // console.log(typeof classMark);
 // console.log(typeof chahalMark); its not showing type null its show object 
 // console.log(typeof vijayMark);
@@ -96,6 +97,9 @@ const myfac=function(a ,b){
        return(a+b) 
 }
 let g=myfac(45 ,89);
+let k=myfac(1234 ,857598);
+
 // console.log(g);
+// console.log(k);
 // console.log(typeof myfac);
 // it gives us function 
