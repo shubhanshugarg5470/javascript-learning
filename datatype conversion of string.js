@@ -1,7 +1,7 @@
 // string =======>
 
 // to number 
-// let ram=("seeta"); 
+// let ram="seeta"; 
 // it gives us NAN(its also a type) and type number 
 // let ram=""; 
 //  it gives us 0 and type number 
@@ -21,7 +21,7 @@
 // let newrahul=null(rahul);
 // console.log(newrahul);
 // console.log(typeof newrahul);
-// mot change because null is not function
+// not change because null is not function
 
 // string to undefined======>
 // let kd="lawyer";
