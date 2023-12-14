@@ -18,4 +18,7 @@ computer exicussion so we use keyword respectively .
  
 
 value =========>
-value is always a any kind of datatype 
+value is always a any kind of datatype that we store for any variable.
+
+operator=========>
+in next file
