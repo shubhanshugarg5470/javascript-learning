@@ -21,5 +21,6 @@ value =========>
 value is always a any kind of datatype that we store for any variable.
 
 operator=========>
-in next file*/
+in next file we discuss it all
+*/
 
