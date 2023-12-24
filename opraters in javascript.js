@@ -1,6 +1,7 @@
 /* as we all know when write code or when we do proggraming so basicaly we store data on memory and do 
 computation on it .
-so for computation on different type of data we used oprators . there are many oprator in javascript 
+so for computation or operation on different type of data we used oprators . there are many oprator in
+ javascript 
 
 1. arithmetic operator 
 2. assignment operator 

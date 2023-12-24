@@ -1,4 +1,4 @@
-// output display ways of jacascript code 
+/* output display ways of jacascript code 
 1.
 document.getElementById("demo").innerHTML =20;
 2.
@@ -9,4 +9,5 @@ window.alert("you are king")
 alert(78);
 4
 console.log(5+6); 
-// it mostly use for printing for checking exicution of code 
+// it mostly use for printing for checking exicution of code */
+
