@@ -1,37 +1,3 @@
-/*"use strict";
-whit this syntax code treat as newer version of js*/ 
-
-
-// alert (3+3) we are using node js , not browser 
-
-
-
-/*when we want to assign memory for data or store data 
-in the memory we use let ,var ,comst
-or
- we give space for any data in the memory . we can call this memory space as
-contaner where we can store data  
-
-
-first declare a memory space (const or let)
-         const --data value of this comtaner can never change
-         let ----data value of this contaner can change
-then give a name(identifier) of the contaner 
-        there are many rule to declare a name  
-           1. letter ,digit, underscore and $ are allowed
-           2. must begun with _ and $ and letter . mever start with number
-           3. js reserverd word are not allowed
-           4. g and G are not same .javascript is a case sensetive*/
-
-const name="shubhanshu"
-let englishMark=78
-var mathMark=90
-
-// let 5man= "group"
-// console.log(5man);
-// its not  allowed 
-
-
 /*and then we assign a value (wich is a datatype) 
 we classify  datatype in two type (we classify datatype based on how data stored in memory and how we access this data)
  1.primitive data type       2.refference datatype
