@@ -1,5 +1,6 @@
 /*and then we assign a value (wich is a datatype) 
-we classify  datatype in two type (we classify datatype based on how data stored in memory and how we access this data)
+we classify  datatype in two type (we classify datatype based on how data stored in memory and
+ how we access this data)
  1.primitive data type       2.refference datatype
  
 primitive datatype---
@@ -8,8 +9,9 @@ nn bb ss u (shortcut for learn)
 2.number 
 3. boolian 
 4.bigimt
-5. strimg ==> when we write somethimg in dounle quote like this  "gargji" is called string ,in doble quote we can write not only text 
-also we can write number 
+5. string ==> when we write somethimg in dounle quote like this  "gargji" is called string 
+   ,in doble quote we can write not only text 
+   also we can write number 
 6.symble ==> for uniqness
 7.undefimd*/
 
@@ -19,7 +21,10 @@ let student="rohit";
 let check=true;
 // can also be false 
 let classMark=BigInt("98764764847604948746");
+
 let sachin=Symbol("classtoper");
+
+
 let vijayMark;
 
 // console.log(typeof check);
@@ -28,7 +33,7 @@ let vijayMark;
 // console.log(typeof classMark);
 // console.log(typeof chahalMark); its not showing type null its show object 
 // console.log(typeof vijayMark);
-// console.log(typeof sachin);
+console.log(typeof sachin);
 // console.log(typeof(sachin));      this is also a syntax to know datatype
 // with this syntax we get type of datatype 
 
@@ -68,4 +73,4 @@ let k=myfac(1234 ,857598);
 // console.log(g);
 // console.log(k);
 // console.log(typeof myfac);
-// it gives us function 
+// 
