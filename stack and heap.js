@@ -15,3 +15,4 @@ myfriendage=89;
 console.log(myage);
 console.log(myfriendage);
 
+
