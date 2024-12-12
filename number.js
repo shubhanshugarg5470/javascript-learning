@@ -3,6 +3,14 @@ let score=78;
 // console.log(score);
 console.log(typeof score);
 // console.log(score.run);
+
+
+// we can not add property to this number litral we only access property and methods of object Number 
+// because of prototype inheritence because when access those property and methods this number litral wraped 
+// up with Number object or in other words js engine created that temprory object and after execution it 
+// deleted or removed from the memory.
+
+
 // score.toFixed(1);
 console.log(score);
 
