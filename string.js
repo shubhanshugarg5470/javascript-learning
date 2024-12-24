@@ -67,9 +67,15 @@ let username=new String("rahul")
 //so under the hood the process going on same as string object js engine temprarly create string object.
 
 let mydost="rohit";
+console.log(mydost.__proto__); 
+//by using this we can see all the properties and methods that string object have
+
 let fakemydost=mydost.toUpperCase();
 // console.log(mydost);
 // console.log(fakemydost);
+
+
+
 
 
 
@@ -88,14 +94,43 @@ let rahulfriend="akash";
 
 
 let hatim="hobo";
-console.log(hatim.indexOf("o"));
+// console.log(hatim.indexOf("o"));
 // how to find same character with this method
-console.log(hatim.charAt(3));
+// console.log(hatim.charAt(3));
 
 
 
+const rambhai="bharat";
+// console.log(rambhai.substring(1,4));
+//this method is used to extract a part of string from a string
+//first parameter is starting index and second parameter is end index
+//end index is not included in the extracted string
+
+let peehufriend="ramprasadgarg";
+// console.log(peehufriend.length);
+// console.log(peehufriend.slice(3,-1));
+//this method is used to extract a part of string from a string
+//first parameter is starting index and second parameter is end index
+//end index is not included in the extracted string
+//but in this method we can use negative index as well, if we use negative index
+//then it will start from end of the string
 
 
+let myplayer="    sachin   ";
+// console.log(myplayer.trim());
+//this method remove unwanted leading and trailing spaces and line terminators
+
+
+
+const myurl="https://www.shubhanshu%garg.com";
+// console.log(myurl.replace("%","-"));//its replace any character with another character
+// console.log(myurl.includes("shubhanshu"));//its tell us that the string contains the given combination of
+// charactor or not
+
+
+let myaddess="vill jamunihai post chorwari distt jhansi";
+// console.log(myaddess.split(" "));//this method split the string into array of strings 
+//based on the given separator
 
 
 

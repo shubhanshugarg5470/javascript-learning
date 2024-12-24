@@ -1,35 +1,42 @@
-let score=78;
-// score.run=67;
-// console.log(score);
-console.log(typeof score);
-// console.log(score.run);
+//just like string litral number litral declareation ways are same 
+
+let myage=56;
+// console.log(myage);
+console.log(myage.__proto__);
 
 
-// we can not add property to this number litral we only access property and methods of object Number 
-// because of prototype inheritence because when access those property and methods this number litral wraped 
-// up with Number object or in other words js engine created that temprory object and after execution it 
-// deleted or removed from the memory.
-
-
-// score.toFixed(1);
-console.log(score);
+// there a less methods for number object as compare to string object
+//these are some important methods and properties that we often use
 
 
 
-let newscore=Number(56);
-// console.log(newscore);
-// console.log(typeof newscore);
+let myfriendage=67;
+// console.log(myfriendage.toString());//we use this method to convert number to string so we can 
+//use string methods on it
 
 
-let anotherscore=new Number(67);
-// anotherscore.runs=56;
-// console.log(anotherscore.runs);
+let mybalance=2345.0020;
+// console.log(mybalance);
+
+let anotherbalance=(mybalance.toFixed(2));//this method tell us how many decimal points we want
+// let anotherbalance=Number(mybalance.toFixed(2));//
+// console.log(typeof anotherbalance);//this return string if we want that it remain
+//number so we can use Number to convert it in number
 
 
-// console.log(anotherscore);
-// console.log(typeof anotherscore);
-let anyscore=anotherscore.toExponential
-// console.log(anyscore); 
+
+let result=43.45;
+console.log(result.toPrecision(1));//this method return the number with the length we want
+
+
+
+
+
+
+
+
+
+
 
 
 
