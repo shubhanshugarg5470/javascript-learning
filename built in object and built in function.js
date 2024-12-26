@@ -1,4 +1,4 @@
 console.log(console);
-console.log();
+console.log(typeof RegExp);
 
 

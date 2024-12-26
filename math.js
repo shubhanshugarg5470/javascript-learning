@@ -1,3 +1,3 @@
 console.log(Math);
-console.log(console);
+console.log(Error);
 
