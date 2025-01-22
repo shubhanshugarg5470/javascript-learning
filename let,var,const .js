@@ -15,10 +15,29 @@ so in 2015 there happened major change in it by introdusing let and const keywor
 const----------
 const age=98;
 with const we can not redeclare and reassign  same variable in same scope but sometimes we need to reassign
-the variable value , for this we use 
-let-----------
-let age=65l
+the variable value , for this we use */
+const myobj={
+
+    name:"raj",
+    
+}
+console.log(myobj);
+myobj.age=78;
+// console.log(myobj);
+
+let myobj2={
+    friendname:"rahul",
+}
+console.log(myobj2);
+myobj2.friendage=56;
+// console.log(myobj2);
+
+
+// let-----------
+// let age=67;
 
 
 
-now avoid to use var , use let and const is a good practice*/
+
+
+// now avoid to use var , use let and const is a good practice
