@@ -28,3 +28,44 @@ function jobnumber(a,b){
     
 }
 console.log(jobnumber(5,5));
+
+
+//when number of arguments are not fixed
+function cartprice(...items){
+     return items;
+}
+console.log(cartprice("aloo" ,"tamatar" , "pyaaz"));
+//this ... is here a rest operator which is used to take multiple arguments in a single array
+
+
+
+function cartprice1(discount,...items){
+    return items;
+}
+console.log(cartprice1(10,23 ,"tamatar" , "pyaaz"));
+
+
+
+//object inside the function
+function handleobj(obj){
+    return console.log(`my name is ${obj.name} and my age is ${obj.age}`);
+}
+const myobj={
+    name:"sachin",
+    age:23
+}
+handleobj(myobj);
+
+let var1=10;
+let var2=`${var1}`;
+console.log(var2);
+//this is called as template literals and it is used to write the string in a better way , it works as a placeholder
+//and only works with backticks
+
+//array inside the function
+const myarray=[1,2,3,4,5];
+function handlearray(arr){
+    return console.log(arr[4]);
+}
+handlearray(myarray);
+
