@@ -23,8 +23,8 @@ javascript statement are composed of combination of
  expression ,value(data type), operators, keywords, identifire, punctuation and comments
 
 expression ====>
-an expression is the syantaxically  combination of keywords ,value and operators or a piece
- of code that produces a value.
+an expression is the code that is responsible for evaluation of any value.
+expression also may seen without any statement  
 
 keywords ======>
 keyword is  reseverd word  of the programming language . its pre -defined for deffirent 
