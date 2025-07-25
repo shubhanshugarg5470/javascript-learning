@@ -1,43 +1,31 @@
-/*for allocating memory for any value or datatype we use keywords - let , var and const
-in other words for declear any variable we use these keywords
-
-var-------------
-first we declare a variable and give the name or give identifire and then we assign a value in it that can
-be any kind of datatypes like this
-var age=65; 
-we use this way for the long period of time but with var there was some issue
-with var we can redeclare and reassign  same variable in same scope it means var 
-does not follow block and scope concept . which is problematic , maintain and debug 
-code.
-and also during hoisting when we want to access any variable before create it var does not give any error
-so in 2015 there happened major change in it by introdusing let and const keyword to solve these problems
-
-const----------
-const age=98;
-with const we can not redeclare and reassign  same variable in same scope but sometimes we need to reassign
-the variable value , for this we use */
-const myobj={
-
-    name:"raj",
-    
-}
-console.log(myobj);
-myobj.age=78;
-// console.log(myobj);
-
-let myobj2={
-    friendname:"rahul",
-}
-console.log(myobj2);
-myobj2.friendage=56;
-// console.log(myobj2);
+/* 
+we can create variable without any keywords like this 
+a = "ram";
+but its not good practice 
 
 
-// let-----------
-// let age=67;
+createing variable using var keyword--------------
+var myname = "shubhanshu";
 
+redeclaration---
+var allow redeclaration 
+var a =56;
+var a =78;
+console.log(a);
+we get 78 
+but this behaviour with var led to so many bugs.
 
+reassignment----
+var allow reassignment
+var h =87;
+h =98;
+console.log(h);
 
+scope--------
+var respect only function boundary , var only bind with function { } or block not all block. 
+because of this 
+we can access variable which is present insing any block like conditional , loops or exiplicitly {}
+other than function block .
+because of this .
 
-
-// now avoid to use var , use let and const is a good practice
+let and const introduced to solve all the problem with var */
